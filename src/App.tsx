@@ -5,6 +5,7 @@
  import { BryntumDemoHeader, BryntumThemeCombo, BryntumScheduler, BryntumNumberField, BryntumButton } from '@bryntum/scheduler-react';
  import { Toast, EventModel, Scheduler } from '@bryntum/scheduler';
  import { schedulerConfig } from './AppConfig';
+ import '@bryntum/scheduler/scheduler.classic.css';
  import './App.scss';
  
  const App: FunctionComponent = () => {

@@ -32,6 +32,12 @@ yarn add @bryntum/scheduler-react@5.0.5
     "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@5.0.5",
 ```
 
+### Make sure to import theme on App.tsx
+
+```
+import '@bryntum/scheduler/scheduler.classic.css';
+```
+
 Things you'll need:
 
 * [NPM repository](https://www.bryntum.com/docs/scheduler/guide/Scheduler/npm-repository#installing-packages)
