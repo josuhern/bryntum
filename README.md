@@ -12,7 +12,7 @@ npm login --registry=https://npm.bryntum.com
 $ Username: user..yourdomain.com
 $ Password: trial
 $ Email: (this IS public) user@yourdomain.com
-npm install @bryntum/demo-resources@1.0.0
+npm install @bryntum/demo-resources@1.1.0
 npm install @bryntum/scheduler-trial@5.0.5
 npm install @bryntum/scheduler-react@5.0.5
 ```
@@ -24,6 +24,12 @@ yarn create react-app bryntum --template typescript
 yarn add node-sass
 yarn add @bryntum/scheduler-trial@5.0.5
 yarn add @bryntum/scheduler-react@5.0.5
+```
+### Make sure your package.json looks like this
+```
+    "@bryntum/demo-resources": "1.1.0",
+    "@bryntum/scheduler-react": "5.0.5",
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@5.0.5",
 ```
 
 Things you'll need:
