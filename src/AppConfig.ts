@@ -36,6 +36,11 @@
              text  : 'Type',
              field : 'role',
              width : 130
+         },
+         {
+            text : 'Speciality',
+            field : 'speciality',
+            with : 140
          }
      ]
  };
